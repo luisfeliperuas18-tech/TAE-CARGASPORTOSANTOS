@@ -1,4 +1,4 @@
-# Entrega — Validação Cruzada e Bootstrap
+# Entrega 7 — Validação Cruzada e Bootstrap
 
 ## Projeto
 
