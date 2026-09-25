@@ -6,8 +6,8 @@
 
 ## Integrantes
 
-- Lorenzo Ribeiro Louzada
 - Arthur Davino
+- Lorenzo Ribeiro Louzada 
 - Luis Felipe Ruas
 
 ## Notebook
