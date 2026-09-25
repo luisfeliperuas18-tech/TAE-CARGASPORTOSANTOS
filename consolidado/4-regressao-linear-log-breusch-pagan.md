@@ -1,4 +1,4 @@
-# Entrega 04 — Regressão Linear, Transformação Logarítmica e Breusch–Pagan
+# Consolidado Entrega 04 — Regressão Linear, Transformação Logarítmica e Breusch–Pagan
 
 ## Projeto
 
