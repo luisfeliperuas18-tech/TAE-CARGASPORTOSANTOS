@@ -4,9 +4,9 @@ Projeto desenvolvido para a disciplina de Teoria do Aprendizado Estatístico da 
 
 ## Integrantes
 
-- Luís Felipe Ruas
-- Lorenzo Louzada
 - Arthur Davino
+- Lorenzo Louzada
+- Luís Felipe Ruas
 
 ## Instituição
 
