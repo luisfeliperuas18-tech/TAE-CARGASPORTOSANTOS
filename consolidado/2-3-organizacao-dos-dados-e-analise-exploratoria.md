@@ -1,4 +1,4 @@
-# Entrega 02 e 03 — Organização dos Dados e Análise Exploratória
+# Consolidado Entrega 02 e 03 — Organização dos Dados e Análise Exploratória
 
 ## Projeto
 
