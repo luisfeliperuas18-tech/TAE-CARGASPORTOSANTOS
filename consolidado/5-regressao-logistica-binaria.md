@@ -1,4 +1,4 @@
-# Entrega 05 — Regressão Logística Binária
+# Consolidado Entrega 05 — Regressão Logística Binária
 
 ## Projeto
 
