@@ -8,11 +8,11 @@
 
 ## Integrantes
 
-- Lorenzo Ribeiro Louzada
 - Arthur Davino
+- Lorenzo Ribeiro Louzada 
 - Luis Felipe Ruas
 
-## Arquivo de Referência
+## Notebook
 
 `dicionario_dados_exportacao_cargas_pi3.md`
 
