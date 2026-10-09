@@ -1,5 +1,21 @@
 # # Consolidado Entrega 8 - Reta, Knn, Kernel e Cv5
 
+## Projeto
+
+**T.A.E. — Porto da Baixada**
+
+## Integrantes
+
+- Arthur Davino
+- Lorenzo Ribeiro Louzada 
+- Luis Felipe Ruas
+
+## Notebook
+
+`9-reta-knn-kernel-cv5.ipynb`
+
+
+
 Este documento apresenta o resumo da análise e modelagem estatística realizada sobre o banco de dados de cargas conteinerizadas no Porto de Santos[cite: 229].
 
 ## 1. Visão Geral e Preparação dos Dados
