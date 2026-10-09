@@ -1,4 +1,4 @@
-# Consolidado da Análise de Dados - Exportação de Cargas Conteinerizadas
+# # Consolidado Entrega 8 - Reta, Knn, Kernel e Cv5
 
 Este documento apresenta o resumo da análise e modelagem estatística realizada sobre o banco de dados de cargas conteinerizadas no Porto de Santos[cite: 229].
 
