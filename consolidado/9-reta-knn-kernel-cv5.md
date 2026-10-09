@@ -19,6 +19,7 @@
 Este documento apresenta o resumo da análise e modelagem estatística realizada sobre o banco de dados de cargas conteinerizadas no Porto de Santos[cite: 229].
 
 ## Atividades realizadas
+
 * importação e verificação do banco de dados do porto;
 * limpeza e tratamento inicial das variáveis numéricas de carga e tonelagem;
 * ajuste de modelos lineares globais e análise de suas limitações em padrões não lineares;
