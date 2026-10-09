@@ -14,7 +14,7 @@
 
 `9-reta-knn-kernel-cv5.ipynb`
 
-
+## Descrição
 
 Este documento apresenta o resumo da análise e modelagem estatística realizada sobre o banco de dados de cargas conteinerizadas no Porto de Santos[cite: 229].
 
