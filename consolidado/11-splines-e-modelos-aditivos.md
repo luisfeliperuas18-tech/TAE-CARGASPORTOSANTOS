@@ -1,8 +1,22 @@
-# Entrega TAE, Aula 10: Splines e Modelos Aditivos
+# Consolidado Entrega 11: Splines e Modelos Aditivos
+
+## Projeto
+
+**T.A.E. — Porto da Baixada**
+
+## Integrantes
+
+- Arthur Davino
+- Lorenzo Ribeiro Louzada 
+- Luis Felipe Ruas
+
+## Notebook
+
+`11-splines-e-modelos-aditivos.ipynb`
 
 ## Descrição
 
-Aula 10 de Teoria do Aprendizado Estatístico (Prof. Dr. João Paulo Ferreira de Mello, 19 de outubro de 2026), sobre splines de regressão, splines de suavização e introdução aos modelos aditivos generalizados (GAM). Ela retoma as três contas abertas da Aula 9 (a média local achata nas pontas, não devolve fórmula e, com muitos preditores, a vizinhança some) e responde com polinômios por pedaços, emendados sem quina nos nós. A aula fecha com exercícios de cálculo, exercícios conceituais e um laboratório aplicado ao banco do projeto (carga conteinerizada do Porto de Santos).
+Aula 11 de Teoria do Aprendizado Estatístico (Prof. Dr. João Paulo Ferreira de Mello, 19 de outubro de 2026), sobre splines de regressão, splines de suavização e introdução aos modelos aditivos generalizados (GAM). Ela retoma as três contas abertas da Aula 9 (a média local achata nas pontas, não devolve fórmula e, com muitos preditores, a vizinhança some) e responde com polinômios por pedaços, emendados sem quina nos nós. A aula fecha com exercícios de cálculo, exercícios conceituais e um laboratório aplicado ao banco do projeto (carga conteinerizada do Porto de Santos).
 
 ## Principais etapas
 
