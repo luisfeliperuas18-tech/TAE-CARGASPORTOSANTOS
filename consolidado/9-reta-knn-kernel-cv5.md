@@ -1,4 +1,4 @@
-# # Consolidado Entrega 8 - Reta, Knn, Kernel e Cv5
+# # Consolidado Entrega 9 - Reta, Knn, Kernel e Cv5
 
 ## Projeto
 
