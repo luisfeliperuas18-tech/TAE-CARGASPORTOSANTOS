@@ -1,4 +1,4 @@
-# Entrega 10 — Amostragem e Distribuições Amostrais
+# Consolidado Entrega 10
 
 ## Projeto
 
@@ -6,8 +6,8 @@
 
 ## Integrantes
 
-- Lorenzo Ribeiro Louzada
 - Arthur Davino
+- Lorenzo Ribeiro Louzada 
 - Luis Felipe Ruas
 
 ## Material
