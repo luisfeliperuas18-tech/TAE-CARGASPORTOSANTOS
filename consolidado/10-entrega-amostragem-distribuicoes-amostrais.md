@@ -1,4 +1,5 @@
-# Entrega TAE - Amostragem e Distribuições Amostrais
+# Entrega 10
+# Amostragem e Distribuições Amostrais
 
 Observação: o slide da aula está rotulado "Aula 9", mas o conteúdo (amostragem, distribuição amostral da média e do Teorema Central do Limite) é diferente do que já foi tratado como aula 9 neste curso (o laboratório de KNN-regressão e kernel smoothing). Pelo encadeamento do material, essa é a aula seguinte àquela, só com a numeração do slide desatualizada.
 
