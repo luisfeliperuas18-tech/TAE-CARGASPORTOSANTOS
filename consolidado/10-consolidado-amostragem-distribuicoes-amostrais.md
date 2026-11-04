@@ -12,7 +12,7 @@
 
 ## Material
 
-`aula10-amostragem-distribuicoes-amostrais.md`
+`10-consolidado-amostragem-distribuicoes-amostrais.md`
 
 **Observação:** embora os slides estejam identificados como Aula 9, este conteúdo foi organizado como Aula 10 para diferenciá-lo da aula anterior sobre regressão KNN e suavização por kernel.
 
