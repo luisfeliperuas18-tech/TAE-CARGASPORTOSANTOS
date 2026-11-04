@@ -12,7 +12,7 @@
 
 ## Notebook
 
-`binario.ipynb`
+`05-regressao-logistica-binaria.ipynb`
 
 ## Descrição
 
