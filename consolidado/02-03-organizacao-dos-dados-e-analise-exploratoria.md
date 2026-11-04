@@ -12,7 +12,7 @@
 
 ## Notebook
 
-`organizacao-dos-dados-analise-exploratoria.ipynb`
+`02-03-organizacao-dos-dados-e-analise-exploratoria.ipynb`
 
 ## Descrição
 
