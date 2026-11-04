@@ -12,7 +12,7 @@
 
 ## Notebook
 
-`9-reta-knn-kernel-cv5.ipynb`
+`09-reta-knn-kernel-cv5.ipynb`
 
 ## Descrição
 
