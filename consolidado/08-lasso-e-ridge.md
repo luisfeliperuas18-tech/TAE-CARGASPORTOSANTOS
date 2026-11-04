@@ -12,7 +12,7 @@
 
 ## Notebook
 
-`07-validacao-cruzada.ipynb`
+`08-lasso-e-ridge.ipynb`
 
 ## Descrição
 
