@@ -12,7 +12,7 @@
 
 ## Notebook
 
-`7_validacao_cruzada.ipynb`
+`07-validacao-cruzada.ipynb`
 
 ## Descrição
 
