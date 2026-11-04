@@ -12,7 +12,7 @@
 
 ## Notebook
 
-`regressao-linear-log-breusch-pagan.ipynb`
+`04-regressao-linear-log-breusch-pagan.ipynb`
 
 ## Descrição
 
