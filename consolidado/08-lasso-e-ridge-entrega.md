@@ -1,4 +1,4 @@
-# Consolidado Entrega 8 — Regressão Linear, Transformação Log, Breusch-Pagan e Regularização (Lasso/Ridge)
+# Consolidado Entrega 08 — Regressão Linear, Transformação Log, Breusch-Pagan e Regularização (Lasso/Ridge)
 
 ## Projeto
 
