@@ -1,0 +1,18 @@
+# Consolidado — Teoria do Aprendizado Estatístico — Aula 05b — Parte D — 2026-10-25
+*guia versão 1 · tutora: Claude (Sonnet 5.5) · sessão de grupo*
+**Grupo:** Porto da Baixada · **presentes:** Arthur Davino Rizzo, Luis Felipe Ruas do Nascimento e Lorenzo Ribeiro Louzada · **digitou:** Arthur Davino Rizzo, em todos os módulos
+
+## 1. O que foi feito
+- M7 — a contagem: registros de movimentação de carga conteinerizada por terminal × ano × mês, de 2005 a 2025 (2026 fica de fora por ser ano incompleto). Cada linha do banco é um registro de movimentação, então é o caso 2 do guia. A unidade é um terminal num mês de um ano. A tabela tem 5.040 linhas (20 terminais × 21 anos × 12 meses), das quais 2.070 (41%) com zero; a contagem tem média 188,6, mediana 3 e máximo 2.225. Nove terminais com menos de 200 registros no período foram juntados numa categoria `OUTROS` (maiúscula), que não deve ser confundida com a categoria `Outros` (inicial maiúscula), que já existia no banco. A exposição é diferente entre as linhas (meses de 28 a 31 dias) e entra como *offset*, $\log(\text{dias})$.
+- M8 — o modelo: terminal, ano e mês; $\hat\phi = 150{,}4$, muito acima de 1, então vale a quase-Poisson (erro padrão do ano de $0{,}00017$ na Poisson e $0{,}00208$ na quase-Poisson, cerca de $\sqrt{150{,}4}=12{,}3$ vezes maior). Leitura de um $e^{\beta}$: cada ano a mais multiplica os registros esperados por $e^{\hat\beta_{\text{ano}}}=1{,}012$, ou seja, $+1{,}2\%$ ao ano, com terminal e mês fixos; com o erro padrão corrigido, o intervalo aproximado de 95% vai de $+0{,}8\%$ a $+1{,}6\%$ ao ano.
+- M9 — o placar: linha de base 433,2 registros, MQO 219,2, Poisson 212,8 (RMSE de validação cruzada, em registros por terminal e mês). Decisão: Poisson, pelo menor erro (queda de 50,9% sobre a linha de base e de 2,9% sobre o MQO) e porque nunca prevê contagem negativa, enquanto o MQO previu valor negativo em 1.067 das 5.040 linhas da validação (21%).
+
+## 2. Como o grupo trabalhou — opinião da tutora
+Eu não conduzi esta sessão com o grupo reunido. Preparei o código da Parte D e testei de ponta a ponta num banco simulado; depois conferi o notebook que o grupo rodou no banco real: tudo executou sem erro, o $n$ da ficha bateu (1.097.014) e a parte da teoria reproduziu os números do guia. A escolha da contagem, dos três preditores e do *offset* são propostas minhas, e o grupo precisa confirmar que concorda. Não tenho como dizer se as decisões saíram do grupo, se todos participaram ou onde discordaram: esta seção só deve ser reescrita depois que o grupo conversar sobre os resultados.
+
+**Verificação final:** não aplicada; a revisar M7, M8 e M9.
+
+## 3. Observações para a frente
+- **Para o trabalho:** a contagem conta registros de movimentação, não toneladas, então só serve como pergunta auxiliar; a ficha da pergunta não deve mudar sem conversar com o professor. O que ela indica: o terminal é o que mais separa a contagem (os razões de taxas vão de menos de $0{,}1$ a mais de $130$ vezes o terminal de referência), há uma tendência pequena de alta ($+1{,}2\%$ ao ano) e uma sazonalidade em que setembro e outubro têm cerca de $13{,}5\%$ mais registros por dia do que janeiro. Duas ressalvas: o erro típico de previsão (212,8) ainda é maior que a média da contagem (188,6), porque os terminais grandes dominam o erro; e 41% das linhas são zeros, muitos deles zeros estruturais (terminais que ainda não operavam ou já tinham deixado de operar), que inflam o $\hat\phi$ e misturam a tendência do ano com a entrada e a saída de terminais.
+- **Perguntas guardadas:** nenhuma.
+- **Produzido:** o código em `estrutura/codigo/aula05b_poisson.ipynb` e o placar acima
