@@ -1,7 +1,18 @@
-# Consolidado — Teoria do Aprendizado Estatístico — Aula 05b (Poisson) — 2026-10-25
-*guia versão 1 · tutora: Claude (Sonnet 5.5) · sessão única*
-**Aluno:** Arthur Davino Rizzo · **presentes na sessão:** Arthur Davino Rizzo, Luis Felipe Ruas do Nascimento e Lorenzo Ribeiro Louzada · **digitou:** Arthur Davino Rizzo · **teste final:** respondido pelos três
+# Consolidado Entrega 05b — Poisson
 
+## Projeto
+
+**T.A.E. — Porto da Baixada**
+
+## Integrantes
+
+- Arthur Davino
+- Lorenzo Ribeiro Louzada 
+- Luis Felipe Ruas
+
+## Notebook
+
+`05b-poisson.ipynb`
 ## 1. O que foi passado
 - M1 — contagens e a Poisson
 - M2 — o log da média como reta; $e^{\beta}$ como razão de taxas
