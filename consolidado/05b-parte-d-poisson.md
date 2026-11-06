@@ -1,6 +1,18 @@
-# Consolidado — Teoria do Aprendizado Estatístico — Aula 05b — Parte D — 2026-10-25
-*guia versão 1 · tutora: Claude (Sonnet 5.5) · sessão de grupo*
-**Grupo:** Porto da Baixada · **presentes:** Arthur Davino Rizzo, Luis Felipe Ruas do Nascimento e Lorenzo Ribeiro Louzada · **digitou:** Arthur Davino Rizzo, em todos os módulos
+# Consolidado Entrega 05b — Parte D — Poisson
+
+## Projeto
+
+**T.A.E. — Porto da Baixada**
+
+## Integrantes
+
+- Arthur Davino
+- Lorenzo Ribeiro Louzada 
+- Luis Felipe Ruas
+
+## Notebook
+
+`05b-poisson.ipynb`
 
 ## 1. O que foi feito
 - M7 — a contagem: registros de movimentação de carga conteinerizada por terminal × ano × mês, de 2005 a 2025 (2026 fica de fora por ser ano incompleto). Cada linha do banco é um registro de movimentação, então é o caso 2 do guia. A unidade é um terminal num mês de um ano. A tabela tem 5.040 linhas (20 terminais × 21 anos × 12 meses), das quais 2.070 (41%) com zero; a contagem tem média 188,6, mediana 3 e máximo 2.225. Nove terminais com menos de 200 registros no período foram juntados numa categoria `OUTROS` (maiúscula), que não deve ser confundida com a categoria `Outros` (inicial maiúscula), que já existia no banco. A exposição é diferente entre as linhas (meses de 28 a 31 dias) e entra como *offset*, $\log(\text{dias})$.
